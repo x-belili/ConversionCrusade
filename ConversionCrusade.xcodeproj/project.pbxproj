@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E265A2F422874C6E0092E582 /* DataRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265A2F322874C6E0092E582 /* DataRecordViewController.swift */; };
+		E265A2FA22875B230092E582 /* PersonalizedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265A2F922875B230092E582 /* PersonalizedTableViewCell.swift */; };
 		E2E5D93322861BF50061246F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5D93222861BF50061246F /* AppDelegate.swift */; };
 		E2E5D93522861BF50061246F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5D93422861BF50061246F /* ViewController.swift */; };
 		E2E5D93822861BF50061246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E5D93622861BF50061246F /* Main.storyboard */; };
 		E2E5D93B22861BF50061246F /* ConversionCrusade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2E5D93922861BF50061246F /* ConversionCrusade.xcdatamodeld */; };
 		E2E5D93D22861BF60061246F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E5D93C22861BF60061246F /* Assets.xcassets */; };
 		E2E5D94022861BF60061246F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E5D93E22861BF60061246F /* LaunchScreen.storyboard */; };
+		E2E5D948228624C30061246F /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5D947228624C30061246F /* CalculateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E265A2F322874C6E0092E582 /* DataRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRecordViewController.swift; sourceTree = "<group>"; };
+		E265A2F922875B230092E582 /* PersonalizedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedTableViewCell.swift; sourceTree = "<group>"; };
 		E2E5D92F22861BF50061246F /* ConversionCrusade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionCrusade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E5D93222861BF50061246F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E5D93422861BF50061246F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		E2E5D93C22861BF60061246F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E5D93F22861BF60061246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E5D94122861BF60061246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E5D947228624C30061246F /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				E2E5D93222861BF50061246F /* AppDelegate.swift */,
 				E2E5D93422861BF50061246F /* ViewController.swift */,
+				E2E5D947228624C30061246F /* CalculateViewController.swift */,
+				E265A2F322874C6E0092E582 /* DataRecordViewController.swift */,
+				E265A2F922875B230092E582 /* PersonalizedTableViewCell.swift */,
 				E2E5D93622861BF50061246F /* Main.storyboard */,
 				E2E5D93C22861BF60061246F /* Assets.xcassets */,
 				E2E5D93E22861BF60061246F /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E5D93522861BF50061246F /* ViewController.swift in Sources */,
+				E265A2F422874C6E0092E582 /* DataRecordViewController.swift in Sources */,
+				E2E5D948228624C30061246F /* CalculateViewController.swift in Sources */,
 				E2E5D93B22861BF50061246F /* ConversionCrusade.xcdatamodeld in Sources */,
 				E2E5D93322861BF50061246F /* AppDelegate.swift in Sources */,
+				E265A2FA22875B230092E582 /* PersonalizedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
